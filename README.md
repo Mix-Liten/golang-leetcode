@@ -39,3 +39,15 @@
 | 0009 | [Palindrome Number](https://leetcode.com/problems/palindrome-number/)                                                   | [link](#) | Nil      | Easy       | YYYY-MM-DD |
 | 0007 | [Reverse Integer](https://leetcode.com/problems/reverse-integer/)                                                       | [link](#) | Nil      | Easy       | YYYY-MM-DD |
 | 0001 | [Two Sum](https://leetcode.com/problems/two-sum/)                                                                       | [link](#) | Nil      | Easy       | YYYY-MM-DD |
+
+### Note
+
+Run Test
+```BASH
+# param -v can get Log message
+# run all test
+go test -v ./problems/./...
+
+# run specific test
+go test -v ./problems/0001.two-sum/
+```
